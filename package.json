@@ -3,6 +3,7 @@
   "version": "0.0.0-dev",
   "description": "personal typescript package",
   "scripts": {
+    "build": "pnpm run --stream -r build",
     "ts-check": "tsc --noEmit",
     "audit": "pnpm audit --fix",
     "ncu": "npx npm-check-updates"
