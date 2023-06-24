@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "name": "@josudoey/koa-util",
+  "types": "./index.d.ts",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc --build"
+  },
+  "dependencies": {
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-compose": "^4.1.0",
+    "koa-router": "^10.1.1",
+    "koa-session": "^6.2.0",
+    "koa-static-cache": "^5.1.4"
+  },
+  "devDependencies": {
+    "@types/koa-compose": "^3.2.5",
+    "@types/koa": "^2.13.5",
+    "@types/koa-bodyparser": "^4.3.8",
+    "@types/koa-router": "^7.4.4",
+    "@types/koa-session": "^5.10.6",
+    "@types/koa-static-cache": "^5.1.1"
+  }
+}
